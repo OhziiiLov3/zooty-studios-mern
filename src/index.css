@@ -1,3 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary: #403d39;
+  --secondary: #eb5e28;
+  --dark: #252422;
+  --grey: #ccc5b9;
+  --fontColor: #ccc5b9;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  columns: #fff;
+}
+
+/* .primary-color {
+  color: var(--secondary);
+} */
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
